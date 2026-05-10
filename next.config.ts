@@ -1,12 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  basePath: '/m2-accounting',
-  images: {
-    unoptimized: true,
-  },
-  trailingSlash: true,
+  // Vercel handles Next.js natively
 };
 
 export default nextConfig;
